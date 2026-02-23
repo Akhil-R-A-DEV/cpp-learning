@@ -7,7 +7,7 @@ int main() {
 		if (num == 5) {
 			num++;
 			//continue; // this will skip 5
-			break; //stps when num become 5    (0 to 4)
+			break; //stops when num become 5    (0 to 4)
 			
 		}
 		std::cout << num << std::endl;
