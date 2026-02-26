@@ -6,7 +6,7 @@ store each item in the vector
 at the end , display all the items in the shoping list
 tips:
 use getLine()
-use a while loop to check if the user typed "done"
+use a while loop
 */
 
 
@@ -21,7 +21,7 @@ int main() {
 	bool done = true;
 
 	while (done == true) {
-		std::cout << "Enter name of the item : ";
+		std::cout << "Enter name of the item (type : done to view items in list ) : ";
 		std::getline(std::cin, eachItemEntered);
 		if (eachItemEntered != "done") {
 			shopingItems.push_back(eachItemEntered);
@@ -30,8 +30,12 @@ int main() {
 			break;
 		}
 	}
+	std::cout << std::endl;
+
+	std::cout << "Your shoping list : " << std::endl ;
 	for (std::string printVal : shopingItems) {
-		std::cout << printVal << std::endl;
+		
+		std::cout << " - " << printVal << std::endl;
 	}
 	return 0;
 }
