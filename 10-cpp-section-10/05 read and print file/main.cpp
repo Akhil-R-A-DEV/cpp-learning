@@ -10,6 +10,7 @@ int main() {
 
 	if (!dataFile) {
 		std::cerr << "sory file cannot be opened ";
+		return 1;
 	}
 
 	while (dataFile >> inputNum) { //while(!datafile.eof())
