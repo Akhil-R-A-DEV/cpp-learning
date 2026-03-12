@@ -1,0 +1,17 @@
+action
+comedy
+horror
+comedy
+drama
+comedy
+action
+thriller
+drama
+comedy
+sci-fi
+horror
+comedy
+drama
+documentary
+comedy
+animation
