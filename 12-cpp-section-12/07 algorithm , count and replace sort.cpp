@@ -21,6 +21,9 @@ int main() {
 	printVector(myVector);
 	countFives(myVector);
 
+	sort(myVector.begin(), myVector.end());
+	printVector(myVector);
+
 	return 0;
 }
 
